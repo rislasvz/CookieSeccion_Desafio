@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect("", {
+mongoose.connect("mongodb://rislas:rislas5456@localhost:27017/?authMechanism=DEFAULT", { //Ingrese la db local de mongo
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
